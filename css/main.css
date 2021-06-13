@@ -20,15 +20,17 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
-h1,
 .intro {
+  color: #937b92;
   width: 425px;
-  color: #502050;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0rem;
+  color: #502050;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  width: 425px;
+  font-weight: 600;
 }
 
 .container {
@@ -52,7 +54,7 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .flex-col {

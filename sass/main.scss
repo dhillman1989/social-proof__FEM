@@ -27,15 +27,17 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
-h1,
 .intro {
+  color: $DarkGrayishMagenta;
   width: 425px;
-  color: $VeryDarkMagenta;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0rem;
+  color: $VeryDarkMagenta;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  width: 425px;
+  font-weight: 600;
 }
 
 .container {
@@ -51,7 +53,7 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   max-width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .flex-col {
