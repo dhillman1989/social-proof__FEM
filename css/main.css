@@ -12,7 +12,12 @@ html {
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: 'Spartan', sans-serif;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 h1,
@@ -68,7 +73,9 @@ h1 {
 }
 
 .review {
-  padding: 1rem 1rem;
+  font-weight: 500;
+  color: #502050;
+  padding: 1.8rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,7 +117,7 @@ h1 {
   color: white;
   font-size: 0.8rem;
   border-radius: 10px;
-  padding: 1.8rem 2.4rem;
+  padding: 2.4rem 2.4rem;
 }
 
 .testimonial:not(:last-child) {
